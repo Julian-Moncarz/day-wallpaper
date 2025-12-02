@@ -1,6 +1,6 @@
 # Day Counter Wallpaper
 
-A macOS script that generates a daily wallpaper displaying the number of days since November 22, 2007.
+A macOS script that generates a daily wallpaper displaying the current day of your life.
 
 ## Requirements
 
