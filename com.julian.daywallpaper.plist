@@ -7,7 +7,8 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/julianmoncarz/Scripts/update_day_wallpaper.sh</string>
+        <string>-c</string>
+        <string>$HOME/Scripts/update_day_wallpaper.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -18,5 +19,9 @@
     </dict>
     <key>RunAtLoad</key>
     <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/daywallpaper.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/daywallpaper.error.log</string>
 </dict>
 </plist>
